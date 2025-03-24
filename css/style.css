@@ -1,0 +1,49 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  height: 3rem;
+  width: 3rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.tindog-title {
+  text-shadow: -2px 3px 10px rgba(0, 0, 0, 0.507);
+}
+
+.tindog-product {
+  max-width: 1000px;
+}
+
+.pebbles-photo {
+  max-height: 150px;
+}
+
+.news img {
+  max-height: 20px;
+}
+
+@media (min-width: 992px) { 
+  .news img {
+    max-height: 30px;
+  }
+}
